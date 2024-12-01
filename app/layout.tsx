@@ -1,8 +1,3 @@
-// app/layout.tsx
-
-import { handlers } from "@/lib/auth";
-export const { GET, POST } = handlers;
-
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
