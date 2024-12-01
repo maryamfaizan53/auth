@@ -17,14 +17,24 @@ export default function Login() {
   };
 
   return (
-    <div
-      className="min-h-screen bg-contain bg-center bg-no-repeat flex items-center justify-center"
-      style={{
-        backgroundImage: "url('/iphonew.JPG')", 
-      }}
-    >
+    <div className="bg-gray-900 min-h-screen text-white flex flex-col">
+            {/* Header */}
+            <header className="bg-gray-800 py-4 shadow-md">
+                <nav className="max-w-7xl mx-auto px-4 flex justify-between items-center">
+                    <a href="#" className="text-2xl font-bold text-purple-400 hover:text-purple-500 transition">
+                        My Website
+                    </a>
+                    <ul className="flex space-x-6">
+                        <li><a href="#" className="hover:text-purple-400 transition">Home</a></li>
+                        <li><a href="#" className="hover:text-purple-400 transition">About</a></li>
+                        <li><a href="#" className="hover:text-purple-400 transition">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+
       <div className=" bg-opacity-90 p-12 rounded-lg shadow-lg w-full max-w-md text-center">
-        <h1 className="text-3xl font-bold mb-6">Sign In with samad</h1>
+        <h1 className="text-3xl font-bold mb-6"> </h1>
         <div className="space-y-2">
           <button
             onClick={() => handleSignIn("github")}
