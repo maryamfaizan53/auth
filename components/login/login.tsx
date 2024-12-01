@@ -63,7 +63,7 @@ export default function Login() {
             <div className="space-y-2">
               <button
                 onClick={() => handleSignIn("github")}
-                className="w-full flex items-center justify-center bg-gray-800 hover:bg-gray-900 text-white px-4 py-2 rounded"
+                className="w-full flex items-center justify-center bg-blue-500 hover:bg-gray-900 text-white px-4 py-2 rounded"
               >
                 <img
                   src="/github-icon.png" // Replace with your image path
