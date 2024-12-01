@@ -1,8 +1,9 @@
+// components/login/login.tsx
 'use client';
 
 import { useState } from 'react';
 import { FaUser, FaLock, FaSignInAlt } from 'react-icons/fa';
-import { signIn, signOut, useSession } from 'next-auth/react';
+import { signIn, useSession, signOut } from 'next-auth/react';
 
 export default function Login() {
     const [email, setEmail] = useState('');
