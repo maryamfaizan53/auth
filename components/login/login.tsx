@@ -22,7 +22,7 @@ export default function Login() {
   };
 
   return (
-    <div className="bg-gray-900 min-h-screen text-white flex flex-col">
+    <div className="bg-purple-600 min-h-screen text-white flex flex-col">
       {/* Header */}
       <header className="bg-gray-800 py-4 shadow-md">
         <nav className="max-w-7xl mx-auto px-4 flex justify-between items-center">
